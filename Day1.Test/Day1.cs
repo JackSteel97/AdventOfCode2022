@@ -24,7 +24,7 @@ public class Tests
     }
     
     [Test]
-    public void Part1Actual()
+    public void Part1()
     {
         const int expectedAnswer = 66_306;
         var actualResult = Day1.Part1(_input);
@@ -42,7 +42,7 @@ public class Tests
     }
     
     [Test]
-    public void Part2Actual()
+    public void Part2()
     {
         const int expectedAnswer = 195_292;
         var actualResult = Day1.Part2(_input);
